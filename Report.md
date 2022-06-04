@@ -21,7 +21,7 @@
 
 ## Experimental results
 ![image](https://user-images.githubusercontent.com/61815140/172017724-776a67c0-b08c-41df-b903-77f011effc7f.png)
-![image](https://user-images.githubusercontent.com/61815140/172017758-2aee1b1b-4029-4ede-af2e-6459de0e2945.png)
+![image](https://user-images.githubusercontent.com/61815140/172017758-2aee1b1b-4029-4ede-af2e-6459de0e2945.png)  
     The above figure is the comparison of simulation time and instruction numbers between different cores and PEs between  
     with or without DMA. 
 
