@@ -27,12 +27,15 @@ In /vp folder,  using the following instructions to build riscv-vp platform.
 
 ### Enter the specific directory depends on the design you choose
 1 core + 1 PE  
+
     cd final-sort-1core
     
 2 cores + 2 PEs  
+
     cd final-sort-2cores
     
 4 cores + 4 PEs  
+
     cd final-sort-4pe
     
 
