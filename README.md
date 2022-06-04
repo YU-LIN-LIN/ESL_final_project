@@ -6,16 +6,16 @@
 In /vp folder,  using the following instructions to build riscv-vp platform.  
 
 ### Enter the directory /vp
-  cd vp
+    cd vp
 
 ### Create a new folder and enter into it
-  mkdir build  
-  cd build  
+    mkdir build  
+    cd build  
 
 ### Compile
-  cmake ..
+    cmake ..
 
 ### install the riscv-vp platform
-  make install
+    make install
 
 
