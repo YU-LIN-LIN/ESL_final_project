@@ -1,6 +1,7 @@
 # ESL_final_project
 
 ### This project's main funtion is sorting. 
+### In the beginning, we need to git clone source code from https://github.com/agra-uni-bremen/riscv-vp.git to construct riscv platform.
 ### Under riscv-vp platfrm, this repositary will cover two folder, sw and vp, which represents to software part and hardware part respectively. 
 
 ## Construct riscv-vp platform  
