@@ -39,6 +39,8 @@ In /vp folder,  using the following instructions to build riscv-vp platform.
 
     cd final-sort-4pe
     
-
+### Simulation
+    make sim
+This instruction is the same in every directory.
 
 
