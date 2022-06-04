@@ -1,6 +1,7 @@
 # ESL_final_project
 
-### Under riscv-vp platfrm, this repositary will cover two folder, sw and vp, which represents to software part and hardware part respectively.  
+### This project's main funtion is sorting. 
+### Under riscv-vp platfrm, this repositary will cover two folder, sw and vp, which represents to software part and hardware part respectively. 
 
 ## Construct riscv-vp platform  
 In /vp folder,  using the following instructions to build riscv-vp platform.  
@@ -17,5 +18,11 @@ In /vp folder,  using the following instructions to build riscv-vp platform.
 
 ### install the riscv-vp platform
     make install
+
+### There are major 3 types of design in this project, they are 1 core + 1 PE, 2 cores + 2 PEs and 4 cores + 4 PEs, respectively.  
+### We could get into each folder, type the instructions and do the simulation.  
+
+
+
 
 
