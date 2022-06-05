@@ -38,8 +38,14 @@
     Then, the cycles I need to sort 36-element sequence between different cores and PEs are :
         1 core + 1 PE     : 4088 cycles  
         2 cores + 2 PEs   : 2336 cycles  
-        4 cores + 4 PEs   : 1168 cycles
+        4 cores + 4 PEs   : 1168 cycles  
+        
+![1654441592315](https://user-images.githubusercontent.com/61815140/172057200-ae03c342-f4c2-462c-b340-d4fd30f382a8.jpg)
 
+    This is the output result of 4 cores + 4 PEs.  
+    Left side is the sorted sequence from 0 to 35.  
+    Right side is the simulation of each core.  
+    
 ## Discussions and conclusions
     In the project, I have learned how to implement an application with multicores and DMA using riscv-vp platform.
     I use different numbers of cores and PEs to implement a sorting application.  
