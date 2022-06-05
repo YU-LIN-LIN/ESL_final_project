@@ -20,20 +20,24 @@
     the "ESL_mid_project" repository.
 
 ## Experimental results
-![image](https://user-images.githubusercontent.com/61815140/172017724-776a67c0-b08c-41df-b903-77f011effc7f.png)
-![image](https://user-images.githubusercontent.com/61815140/172017758-2aee1b1b-4029-4ede-af2e-6459de0e2945.png)  
-    
+![image](https://user-images.githubusercontent.com/61815140/172055798-22127986-9e65-4be2-88a4-4c9343ede28a.png)
+
     The above figure is the comparison of simulation time and instruction numbers between different cores and PEs between  
-    with or without DMA. 
+    with or without DMA.  
+    To be honest, I do not know why the larger number of the core will have more instruction numbers compared to the core0 one.    
 
 ![image](https://user-images.githubusercontent.com/61815140/172052134-96668124-39a0-43ba-aadc-5c5c074be86e.png)
-The above table is the synthesis result, including area and lateny under different optimization.
 
-
+    The above table is the synthesis result, including area and lateny under different optimization.
+    
+    Choosing total sorting latency is 128 cycles and each element in/out equals to 1 cycle, every 9 element sorting needs 146 (9 + 128 + 9) cycles.  
+    Then, the cycles I need to sort 36-element sequence between different cores and PEs are :
+        1 core + 1 PE     : 4088 cycles  
+        2 cores + 2 PEs   : 2336 cycles  
+        4 cores + 4 PEs   : 1168 cycles
 
 ## Discussions and conclusions
-
-
-
-
-
+    In the project, I have learned how to implement an application with multicores and DMA using riscv-vp platform.
+    I use different numbers of cores and PEs to implement a sorting application.  
+    More cores and more PEs can optimize the system with module-level parallelism with less simulation time.  
+    However, the instruction numbers in each core could be larger in core1, core2, core3 ... etc.
