@@ -26,7 +26,8 @@
     The above figure is the comparison of simulation time and instruction numbers between different cores and PEs between  
     with or without DMA. 
 
-
+![image](https://user-images.githubusercontent.com/61815140/172052134-96668124-39a0-43ba-aadc-5c5c074be86e.png)
+The above table is the synthesis result, including area and lateny under different optimization.
 
 
 
@@ -36,4 +37,3 @@
 
 
 
-compare with w/o DMA
