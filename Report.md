@@ -15,7 +15,7 @@
 ## Additional features of your design and models
     The main function in sw part is used as testbench. To fulfill sorting more than 9 elements sequence,  
     I need to partition the sequence and control the input flow one part by one part, then repeat several times.
-    After sorting each part of the sequence in order, I could have a sorted sequence in the end.
+    After sorting each part of the sequence in order, I could get a sorted sequence in the end.
     To know more details of how to control the input flow, reference to the 'Additional features ...' part of  
     the "ESL_mid_project" repository.
 
