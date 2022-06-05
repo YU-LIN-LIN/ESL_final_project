@@ -7,7 +7,11 @@
     Also using stratus to do synthesis and get area report.
 
 ## Implementation details
+![1654440874354](https://user-images.githubusercontent.com/61815140/172056682-0035f764-a5c2-47f9-a603-a5e894a1b8e0.jpg)
+
+    The above figure is the stucture of this sorting system.  
     I store the sequence as an array in global memory in the main function of the software part.  
+    Through the IO system and DMA do data transaction with bus connected to the PEs.
     The total length of the sequence is 36 elements which are all integers from 0~255.  
     By setting multiple global addresses for additional PEs amd DMA ports, we can do simulation with more cores  
     and PEs and optimize with parallelism. We also need to do some modification in bootstrap.S file in /sw.
