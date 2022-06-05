@@ -9,7 +9,7 @@
 ## Implementation details
     I store the sequence as an array in global memory in the main function of the software part.  
     The total length of the sequence is 36 elements which are all integers from 0~255.  
-    By set multiple global addresses for additional PEs amd DMA ports, we can do simulation with more cores  
+    By setting multiple global addresses for additional PEs amd DMA ports, we can do simulation with more cores  
     and PEs and optimize with parallelism. We also need to do some modification in bootstrap.S file in /sw.
 
 ## Additional features of your design and models
